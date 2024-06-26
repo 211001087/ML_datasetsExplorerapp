@@ -40,5 +40,4 @@
 
 
 #### By
-+ Jesse E.Agbe(JCharis)
-+ Jesus Saves @JCharisTech
++ SAKTHIVEL

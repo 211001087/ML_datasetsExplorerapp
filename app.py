@@ -33,7 +33,7 @@ def main():
 	# Show Dataset
 
 	if st.checkbox("Show Dataset"):
-		number = st.number_input("Number of Rows to View")
+		number = int(st.number_input("Number of Rows to View"))
 		st.dataframe(df.head(number))
 
 	# Show Columns
@@ -83,6 +83,7 @@ def main():
 	if st.checkbox("Correlation Plot[Seaborn]"):
 		st.write(sns.heatmap(df.corr(),annot=True))
 		st.pyplot()
+	
 
 	
 	# Pie Chart
@@ -146,11 +147,11 @@ def main():
 
 	st.sidebar.header("Get Datasets")
 	st.sidebar.markdown("[Common ML Dataset Repo]("")")
-
+	
 	st.sidebar.header("About")
-	st.sidebar.info("Jesus Saves@JCharisTech")
+	st.sidebar.info("211001087@rajalakshmi.edu.in")
 	st.sidebar.text("Built with Streamlit")
-	st.sidebar.text("Maintained by Jesse JCharis")
+	
 
 
 if __name__ == '__main__':
