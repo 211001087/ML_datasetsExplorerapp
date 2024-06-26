@@ -8,7 +8,7 @@
 #### Built with Streamlit
 
 #### Screenshot
-![](images/app_images02.png)
+![](images/mlapp1.png)
 
 #### Screenshot
 ![](images/app_images03.png)
@@ -34,8 +34,7 @@
 #### Screenshot
 ![](images/app_images10.png)
 
-#### App Live on datasetsformlapp.herokuapp.com
-![](images/app_images09.png)
+
 
 
 
